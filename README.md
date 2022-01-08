@@ -53,7 +53,7 @@ Respiratory:
 * Eosinófilos: eosinophils (%)	
 * RDW: Red Cell Distribution Width	
 * Leucócitos #: leukocytes	
-* dt_hemo: CBC date	
+* dt_hemo: CBC tests date	
 * respiratoria: presents signs of respiratory insufficiency (0 = No, 1 = Yes)	
 * dt_respiratoria: date when respiratory insufficiency tests were made
 * hepatica: presents signs of hepatic insufficiency (0 = No, 1 = Yes)	
