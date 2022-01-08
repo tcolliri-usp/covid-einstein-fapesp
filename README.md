@@ -28,9 +28,9 @@ Respiratory:
 - potassium
 
 ### Columns:
-* id_paciente: patient unique number	
+* id_paciente: patient's unique number	
 * ic_sexo:	0=Female, 1=Male
-* idade: age
+* idade: patient's age
 * idade_faixa: 0 = age < 20, 1 = 20 <= age < 40, 2 = 40 <= age < 60, 3 = 60 <= age < 80, 4 = age >= 80 
 * Neutrófilos #:  neutrophils
 * CHCM: Mean Corpuscular Hemoglobin Concentration	
