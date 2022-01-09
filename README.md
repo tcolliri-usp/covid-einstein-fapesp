@@ -74,7 +74,7 @@ Respiratory:
 Dados COVID Hospital Israelita Albert Einstein: https://repositoriodatasharingfapesp.uspdigital.usp.br/handle/item/98
 
 ## Citation
-If this material was useful in your research, please kindly cite the following article:
+If this material was useful for your research work, please kindly cite the following article:
 
 Colliri, T., Minakawa, M., & Zhao, L. (2021, November). Detecting Early Signs of Insufficiency in COVID-19 Patients from CBC Tests Through a Supervised Learning Approach. In Brazilian Conference on Intelligent Systems (pp. 42-57). Springer, Cham.
 
