@@ -9,6 +9,7 @@ For this version, firstly, we identify the patients who tested positive in at le
 - immunoglobulin M (IgM), 
 - immunoglobulin G (IgG) and 
 - enzyme-linked immunosorbent assay (ELISA). 
+
 Next, we filter the patients and left in the dataset only the ones who have made at least one complete blood count (CBC) test, in a date no earlier than the date to be tested positive for COVID-19. In case a patient has made more than one CBC test, we then consider only the results of the first test. Afterwards, we run an algorithm to automatically label each patient of the dataset as presenting or not signs from each type of insufficiency (hepatic, renal and respiratory), strictly according to results from the specific tests listed below, and using their respective reference values provided in the same original database, which are standardized in the medical literature.
 
 After the data cleansing, we end up with a total of 2,982 different patients in the dataset, with each of them presenting a class label regarding whether he or she presented signs of Hepatic Insufficiency, Renal Insufficiency and Respiratory Insufficiency (1 = With Signs, 0 = Without Signs, for each label).
