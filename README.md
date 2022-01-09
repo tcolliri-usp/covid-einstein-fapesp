@@ -4,7 +4,12 @@ Preprocessed data from 2,982 de-identified COVID-19 patients, provided by the Al
 ## Data
 This COVID-19 dataset was built from originally unlabeled data collected from COVID-19 patients of the Israelite Albert Einstein Hospital, located in Sao Paulo, Brazil. The original database comprises a total of 1,853,695 results from 127 different medical tests, collected from 43,562 de-identified patients, who received treatment in the hospital from January 1, 2020 until June 24, 2020.
 
-For this version, firstly, we identify the patients who tested positive in at least one of the following COVID-19 detection tests: polymerase chain reaction (PCR), immunoglobulin M (IgM), immunoglobulin G (IgG) and enzyme-linked immunosorbent assay (ELISA). Next, we filter the patients and left in the dataset only the ones who have made at least one complete blood count (CBC) test, in a date no earlier than the date to be tested positive for COVID-19. In case a patient has made more than one CBC test, we then consider only the results of the first test. Afterwards, we run an algorithm to automatically label each patient of the dataset as presenting or not signs from each type of insufficiency (hepatic, renal and respiratory), strictly according to results from the specific tests listed below, and using their respective reference values provided in the same original database, which are standardized in the medical literature.
+For this version, firstly, we identify the patients who tested positive in at least one of the following COVID-19 detection tests: 
+- polymerase chain reaction (PCR), 
+- immunoglobulin M (IgM), 
+- immunoglobulin G (IgG) and 
+- enzyme-linked immunosorbent assay (ELISA). 
+Next, we filter the patients and left in the dataset only the ones who have made at least one complete blood count (CBC) test, in a date no earlier than the date to be tested positive for COVID-19. In case a patient has made more than one CBC test, we then consider only the results of the first test. Afterwards, we run an algorithm to automatically label each patient of the dataset as presenting or not signs from each type of insufficiency (hepatic, renal and respiratory), strictly according to results from the specific tests listed below, and using their respective reference values provided in the same original database, which are standardized in the medical literature.
 
 After the data cleansing, we end up with a total of 2,982 different patients in the dataset, with each of them presenting a class label regarding whether he or she presented signs of Hepatic Insufficiency, Renal Insufficiency and Respiratory Insufficiency (1 = With Signs, 0 = Without Signs, for each label).
 
